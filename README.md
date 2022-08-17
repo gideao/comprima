@@ -1,17 +1,19 @@
-# aws-lambda-image
+# Comprima
 
-[![Build Status](https://travis-ci.org/ysugimoto/aws-lambda-image.svg?branch=master)](https://travis-ci.org/ysugimoto/aws-lambda-image)
-[![Code Climate](https://codeclimate.com/github/ysugimoto/aws-lambda-image/badges/gpa.svg)](https://codeclimate.com/github/ysugimoto/aws-lambda-image)
-[![Coverage Status](https://coveralls.io/repos/github/ysugimoto/aws-lambda-image/badge.svg?branch=master)](https://coveralls.io/github/ysugimoto/aws-lambda-image?branch=master)
+[![Build Status](https://travis-ci.org/gideao/comprima.svg?branch=master)](https://travis-ci.org/gideao/comprima)
+[![Code Climate](https://codeclimate.com/github/gideao/comprima/badges/gpa.svg)](https://codeclimate.com/github/gideao/comprima)
+[![Coverage Status](https://coveralls.io/repos/github/gideao/comprima/badge.svg?branch=master)](https://coveralls.io/github/gideao/comprima?branch=master)
 [![npm version](https://badge.fury.io/js/aws-lambda-image.svg)](https://badge.fury.io/js/aws-lambda-image)
 [![Join the chat at https://gitter.im/aws-lambda-image](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/aws-lambda-image?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 An AWS Lambda Function to resize/reduce images automatically. When an image is
 put on AWS S3 bucket, this package will resize/reduce it and put to S3.
 
+This project is a updated version of the [aws-lambda-image](https://github.com/ysugimoto/aws-lambda-image) by Yoshiaki Sugimoto
+
 ## Requirements
 
-- Node.js ( AWS Lambda supports versions of **8.10** or later )
+- Node.js ( AWS Lambda supports versions of **16.x** or later )
 
 ### Important Notice
 
